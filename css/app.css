@@ -1,0 +1,162 @@
+body{
+	background-color: black;
+	font-family: 'Bree Serif', serif;
+}
+h1, h2, h3, h4, h5, h6, button, input[type="submit"]{
+	font-family: 'Bree Serif', serif;
+}
+#social-container{
+	background-color: #1c3643;
+}
+#logo-container .callout{
+	background-color: #e8354a;
+	color: white;
+	margin-bottom: 0px;
+}
+#menu-container{
+	background-color: #000000;
+}
+#menu-container li a{
+	color: white;
+	font-family: 'Bree Serif', serif;
+	text-transform: uppercase;
+	}
+#menu-container li a:hover{
+	color: #f6e15f;
+	}
+#submenu-container{
+	border: none;
+}
+#submenu-container li a{
+	background-color: #000000;
+	color: white;
+}
+#submenu-container li a:hover{
+	color: #f6e15f;
+}
+
+#tickets-action .callout{
+	background: linear-gradient(rgba(1,2,3,0.45), rgba(2,23,37,0.98)), url("../img/rayo1.jpg");
+	background-color: #021725;
+	background-size: cover;
+	color: white;
+	margin-bottom: 0px;
+}
+#tickets-action .callout button{
+	color: white;
+	border: 1px solid white;
+}
+#lineup-container{
+	padding: 1em 0 0 0;
+}
+
+
+#lineup-container,
+#lineup-container .tabs-panel, 
+#lineup-container .tabs,
+#lineup-container .tabs .tabs-title,
+#lineup-container .tabs .tabs-title.is-active a{
+	background-color: #ee3f54;
+	color: white;
+	border: 0px;
+	text-transform: uppercase;
+	font-family: 'Bree Serif', serif;
+}
+#lineup-container .tabs-panel{
+	background: linear-gradient(rgb(238, 63, 84), #033c63);
+}
+.tabs-content{
+	border: 0px;
+}
+#lineup-container .tabs .tabs-title a{
+	font-size: 18px;
+	color: #a7fffb;
+	
+}
+#lineup-container .tabs .tabs-title a:hover{
+	color: white;
+	background-color: #9676af;
+}
+.tabs-title{
+	display: inline-block;
+	float: none;
+}
+
+#lineup-container .orbit-container {
+	margin-bottom: 1em;
+}
+
+#lineup-container .column:nth-child(odd) figcaption{
+	text-align: right;
+}
+.orbit-caption{
+	background-color: rgba(3, 60, 99, 0.5);
+}
+#tickets-container{
+	padding: 1em 0;
+	background-color: #16161b;
+	background: linear-gradient(rgba(3, 60, 99, 0.98), #ee3f54b0), url(../img/stagelighting.jpg);
+	background-size: cover;
+}
+#tickets-container .column{
+	padding-bottom: 1em;
+}
+#tickets-container h3{
+	color: #f44336;
+}
+.pricing-table {
+	border: 1px solid #161742;
+	font-family: 'Ravi Prakash', cursive;
+}
+.pricing-table li.description,
+.pricing-table li {
+	font-size: 20px;
+}
+.pricing-table li.title,
+.pricing-table li.price {
+	font-size: 30px;
+}
+.pricing-table a.button{
+	font-family: 'Bree Serif', serif;
+}
+
+ul {
+	margin: 0;
+}
+
+#info-container{
+	background-color: #161742;
+	color: white;
+	padding: 1em 0;
+}
+#info-container .info-mapa iframe{
+	width: 100%;
+}
+#suscribete-container{
+	background-color: #ee3f54;
+	color: white;
+	padding: 1em 0;
+}
+#suscribete-container small{
+	color: #ffcdcc;
+
+}
+
+#suscribete-container .error-container{
+	font-family: 'Bree Serif', serif;
+}
+.data-sticky{
+	z-index: 100;
+}
+#offCanvas, #offCanvas li a{
+	background-color: black;
+	color: white;
+	font-family: 'Bree Serif', serif;
+}
+
+#offCanvas .is-drilldown-submenu-parent > a::after{
+	border-color: transparent transparent transparent white;
+}
+.#offCanvas .js-drilldown-back > a::before{
+	background-color: transparent white transparent transparent;
+}
